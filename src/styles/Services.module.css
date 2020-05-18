@@ -1,0 +1,15 @@
+.services {
+  background-color: #333;
+}
+
+.carousel {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+/* Media Queries */
+@media (min-width: 750px) {
+  .services {
+    padding: 2.5rem 0;
+  }
+}
