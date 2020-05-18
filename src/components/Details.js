@@ -9,6 +9,7 @@ const Details = () => {
     <div>
       <Detail
         bg="#a7cecb"
+        direction="row"
         title="Professional"
         text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet velit rutrum, congue diam quis, ultrices arcu. Nullam mattis molestie eros, eget congue sem. Phasellus convallis at nibh at. "
         url={skyscraper}
@@ -16,6 +17,7 @@ const Details = () => {
       />
       <Detail
         bg="#8ba6a9"
+        direction="row-reverse"
         title="Reliable"
         text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet velit rutrum, congue diam quis, ultrices arcu. Nullam mattis molestie eros, eget congue sem. Phasellus convallis at nibh at. "
         url={notebook}

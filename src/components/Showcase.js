@@ -3,7 +3,7 @@ import styles from '../styles/Showcase.module.css';
 import { Button } from '@material-ui/core';
 
 const Showcase = () => {
-  const classes = `${styles.wrapper} container`;
+  const classes = `${styles.wrapper} showcaseContainer`;
 
   return (
     <div className={styles.showcase}>
