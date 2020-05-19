@@ -1,12 +1,19 @@
 import React from 'react';
 import './App.css';
 
-import { Header, Showcase, Services, Details, Footer } from './components';
+import {
+  Header,
+  Showcase,
+  Cards,
+  Services,
+  Details,
+  Footer,
+} from './components';
 
 const App = () => {
   return (
     <div>
-      {/* <Header /> */}
+      <Header />
       <main>
         <Showcase />
         <Services />
